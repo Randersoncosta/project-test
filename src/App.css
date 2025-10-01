@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, sans-serif;  /* Uma fonte simples e legível */
+  background-color: #f0f2f5;      /* Cor de fundo cinza bem claro */
+  color: #333333;                /* Cor do texto principal (cinza escuro) */
+  margin: 0;                      /* Remove a margem padrão do navegador */
+  padding: 0;                     /* Remove o preenchimento padrão */
+}
+
+/* --- O CONTÊINER PRINCIPAL --- */
+/* A caixa que envolve todo o nosso site */
+.app {
+  max-width: 800px; /* Define uma largura máxima para o conteúdo */
+  margin: 20px auto; /* Centraliza a caixa na tela e adiciona espaço em cima/embaixo */
+  padding: 20px;    /* Adiciona um espaço interno para o conteúdo não colar nas bordas */
+}
+
+/* --- O CABEÇALHO --- */
+.header {
+  background-color: #250c0cf7; /* Fundo azul */
+  color: white;             /* Texto branco */
+  padding: 30px;            /* Bastante espaço interno para ficar "gordinho" */
+  text-align: center;       /* Centraliza todo o texto */
+  border-radius: 8px;       /* Cantos levemente arredondados */
+}
+
+.header h1 {
+  margin: 0; /* Remove a margem do título principal */
+}
+
+/* --- AS SEÇÕES PRINCIPAIS --- */
+/* Estilo comum para as seções "Sobre" e "Projetos" */
+.sobre, .projetos {
+  background-color: white; /* Fundo branco para destacar do fundo da página */
+  padding: 20px;           /* Espaço interno */
+  margin-top: 25px;        /* Espaço para separar uma seção da outra */
+  border-radius: 8px;      /* Cantos arredondados */
+  border: 1px solid #dddddd; /* Borda cinza bem clara */
+}
+
+/* --- TÍTULOS DAS SEÇÕES --- */
+/* Para "Sobre Mim" e "Meus Projetos" */
+h2 {
+  color: #007bff; /* Cor azul para combinar com o header */
+  border-bottom: 2px solid #f0f2f5; /* Uma linha cinza abaixo do título */
+  padding-bottom: 10px; /* Espaço entre o texto e a linha */
+}
+
+/* --- O CARD DE PROJETO INDIVIDUAL --- */
+.projeto-card {
+  border: 1px solid #eeeeee; /* Borda bem sutil para separar os projetos */
+  padding: 15px;             /* Espaço interno no card */
+  margin-bottom: 15px;       /* Espaço entre um card e outro (empilhamento vertical) */
+  border-radius: 5px;        /* Cantos levemente arredondados */
+}
+
+/* Quando não for o último card, adiciona a margem. O último não precisa. */
+.projeto-card:last-child {
+  margin-bottom: 0;
+}
+
+.projeto-card h3 {
+  margin-top: 0; /* Remove o espaço de cima do título do projeto */
+}
+
+/* --- O LINK DENTRO DO CARD --- */
+/* Transforma o link em um "botão" */
+.projeto-card a {
+  display: inline-block;     /* Permite definir padding e outras propriedades de caixa */
+  background-color: #28a745; /* Fundo verde */
+  color: white;              /* Texto branco */
+  padding: 10px 15px;        /* Espaço interno para parecer um botão */
+  text-decoration: none;     /* Remove o sublinhado padrão do link */
+  border-radius: 5px;        /* Cantos arredondados */
+  margin-top: 10px;          /* Espaço acima do botão */
+}
+
+/* Efeito simples quando o mouse passa por cima do botão */
+.projeto-card a:hover {
+  background-color: #218838; /* Um tom de verde um pouco mais escuro */
+}
+
+/* --- O RODAPÉ --- */
+.footer {
+  text-align: center; /* Centraliza o texto */
+  margin-top: 30px;   /* Espaço acima do rodapé */
+  padding: 20px;      /* Espaço interno */
+  color: #6c757d;     /* Cor de texto cinza, menos importante */
+}

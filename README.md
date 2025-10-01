@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Projeto Prático: Construindo um Portfólio Pessoal com React
 🎯 Objetivo do Projeto
 O objetivo deste projeto é construir uma página de portfólio pessoal de uma única página (Single Page Application) utilizando React. Ao final, você terá um site funcional para exibir seus projetos e terá praticado conceitos fundamentais da biblioteca React, como componentização, props e renderização de listas.
@@ -84,3 +85,7 @@ Tornar Responsivo: Use Media Queries no seu CSS para garantir que o layout se ad
 Deploy: Publique seu site gratuitamente usando serviços como Netlify ou Vercel.
 
 Boa sorte e divirta-se codificando!
+=======
+# project-test
+test-repository-name
+>>>>>>> 3ec71c552cd01e6473d99f3a4d7fcbac314f508a
